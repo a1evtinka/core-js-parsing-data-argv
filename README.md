@@ -20,7 +20,6 @@ _Figure 2_. Filtering js objects, created from CSV file, by "area_code" field.
 
 One of the benefits of loading data from CSV file into js objects is that it becomes easier to 'filter' a collection of people or manipulate their attributes. For instance, you could sort people by name. Or you could update a person' phone number.
 
-Твоя программа должна позволять пользователям «фильтровать» людей из `people.csv`, используя разные команды: фильтрацию людей по определенному региональному коду, по определенной фамилии, адресу электронной почты из определенного домена или по дате рождения. Программа должна работать аналогично примеру на Рисунке 1.
 Your program should allow users to 'filer' people from `people.csv` using different commands: filtering people by a specific region code, by a specific last name, an email address from a specific domain or by date of birth. The program should work similarly to the example in Figure 1.
 
 Start by developing a function to find (filter) people by region code. Run the program and follow the error messages. After users can search for people by region code, implement three other functions: search by last name, by email, and by year of birth. Then come up with and add another search parameter.
