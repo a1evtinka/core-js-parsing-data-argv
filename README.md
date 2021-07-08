@@ -1,41 +1,43 @@
-# Парсинг данных: фильтрация, argv
+# Data parsing: filtering, argv
 
-## Введение
+## Introduction
 
-Данное задание является продолжением задания [parsing data][]. Если ты не выполнил его - самое время это сделать! Также ты можешь отложить это задание, и выполнять любое другое из тех, что есть на сегодня.
+This challenge is the continuation of the previous exercise [parsing data][]. If you have not done it yet - it is time to get to it! You can also postpone this challenge and do any of the today's exercises.
 
 ## Releases
 
-### Release 0: Работа с объектами JS
+### Release 0: Working with JS objects
 
-![анимация](readme-assets/pd-name.gif)
+![animation](readme-assets/pd-name.gif)
 
-_Рисунок 1_. Фильтрация объектов js, созданных из файла CSV, по полю "last_name".
-
-
-![анимация](readme-assets/pd-code.gif)
-
-_Рисунок 2_. Фильтрация объектов js, созданных из файла CSV, по полю "area_code".
+_Figure 1_. Filtering js objects, created from CSV file, by "last_name" field.
 
 
-Одним из преимуществ загрузки данных из файла CSV в объекты js является то, что становится проще «фильтровать» коллекцию людей или манипулировать их атрибутами. Например, ты мог бы отсортировать людей по имени. Или можешь обновить номер телефона человека.
+![animation](readme-assets/pd-code.gif)
+
+_Figure 2_. Filtering js objects, created from CSV file, by "area_code" field.
+
+
+One of the benefits of loading data from CSV file into js objects is that it becomes easier to 'filter' a collection of people or manipulate their attributes. For instance, you could sort people by name. Or you could update a person' phone number.
 
 Твоя программа должна позволять пользователям «фильтровать» людей из `people.csv`, используя разные команды: фильтрацию людей по определенному региональному коду, по определенной фамилии, адресу электронной почты из определенного домена или по дате рождения. Программа должна работать аналогично примеру на Рисунке 1.
+Your program should allow users to 'filer' people from `people.csv` using different commands: filtering people by a specific region code, by a specific last name, an email address from a specific domain or by date of birth. The program should work similarly to the example in Figure 1.
 
-Начни с разработки функции поиска (фильтрации) людей по коду региона. Запусти программу и следуй сообщениям об ошибках. После того, как пользователи смогут искать людей по региональному коду, выполни три другие функции: поиск по фамилии, по электронной почте и по году рождения. Затем придумай и добавь еще один параметр для поиска.
+Start by developing a function to find (filter) people by region code. Run the program and follow the error messages. After users can search for people by region code, implement three other functions: search by last name, by email, and by year of birth. Then come up with and add another search parameter.
 
-### Release 1: Сбор и сохранение информации
+### Release 1: Collection and storage of information
 
-Ты уже можешь записать данные в CSV! Напиши скрипт, который позволит создать адресную книгу в формате CSV на основе пользовательского ввода. Ты вводишь имена людей, номера телефонов и т.д. прямо в командной строке в момент запуска скрипта (`runner.js`), а затем сохраняешь введенные данные в файл CSV. Пример запуска программы:
+You already can write data to CSV! Write a script to generate a CSV address book based on user input. You enter people's names, phone numbers, etc right in the command line when you run the script (`runner.js`), and then you save the entered data to a CSV file. An example of starting the program:
+
 ```bash
 node runner.js '[{"name":"Vasya", "phone":"+79887776634", ...}, ...]'
 ```
 
-Формат, в котором ты передаешь данные о людях при запуске может быть любым. Придумай свой вариант.
-Необходимо сделать именно так, чтобы можно было добавить сразу несколько пользователей в адресную книгу за один запуск программы.
+The format in which you transfer data about people at starting the program can be anything. Come up with your own version.
+It is necessary that you can add several users to the address book at once in just one start of the program.
 
-## Заключение
-Ты молодец!
+## Conclusion
+Good job!
 
 
 [parsing data]: https://github.com/Elbrus-Bootcamp/core-js-parsing-data-fs
