@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This challenge is the continuation of the previous exercise [parsing data][]. If you have not done it yet - it is time to get to it! You can also postpone this challenge and do any of the today's exercises.
+This challenge is the continuation of the previous exercise - parsing data: https://github.com/Elbrus-Bootcamp/core-js-parsing-data-fs/tree/master-eng. If you have not done it yet - it is time to get to it! You can also postpone this challenge and do any of the today's exercises.
 
 ## Releases
 
